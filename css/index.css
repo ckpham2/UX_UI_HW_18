@@ -1,0 +1,117 @@
+link {
+    display: none;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    width: 1152px;
+    border: 15px;
+    padding: 50px;
+    margin: 10px;
+    height: 700px;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+nav {
+    height: 50px;
+    width: 1152px;
+    padding: 1%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+  
+  li {
+    float: right;
+    font-size: 26px;
+    display: inline-block;
+  }
+  
+  li a {
+    display: block;
+    color: #1D1F1E;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.nav{
+    display: inline-block;
+    vertical-align: top;
+}
+img {
+    width: 532px;
+    height: 550px;
+    background-image: url(/images/Caroline\ Pham\ Logos-02\ 1.png);
+    background-repeat: no-repeat;
+    float: left;
+}
+.bio {
+    height:592px;
+    float: left;
+    width: 532px;
+}
+.content {
+    float: right;
+    font-size: 24pt;
+    font-weight: 500;
+}
+footer {
+    margin-top: 100px;
+}
+footer div {
+    display: inline-block;
+}
+footer .copyright {
+    width: 49%;
+    height: 30px;
+}
+footer .connect {
+    width: 50%;
+    text-align: right;
+}
+footer ul li a{
+    padding: 0 15px;
+}
+.nav {
+    display: inline-block;
+    vertical-align: top;
+    width: 73%;
+    padding: 1%;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    width: 500px;
+}
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    width: 150px;
+    font-size: 14px;
+    text-align: center;
+    color: #1D1F1E;
+    border-radius: 25px;
+    border-color: #D8E8E7;
+    background-color: #D8E8E7;
+}
+h1 {
+    font-size: 64pt;
+    font-weight: bold;
+    text-align: center;
+}
+html {
+    line-height: 1.7;
+}
+span {
+    color: #1D1F1E;
+}
