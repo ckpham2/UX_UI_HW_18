@@ -182,3 +182,30 @@ span {
 .email {
     display: flex;
 }
+@media only screen and (max-width: 600) {
+    .flexContainer {
+        flex-direction: column;
+        width: 100%;
+    }
+    .workGrid {
+        display: grid;
+    }
+    .image {
+        grid-area: image;
+    }
+    .info {
+        grid-area: info;
+        text-align: center;
+    }
+    .gridContainer {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-areas: 'image'
+                             'info'
+                             'image'
+                             'info'
+                             'image'
+                             'info';
+    }
+} 
