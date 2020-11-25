@@ -1,6 +1,10 @@
 link {
     display: none;
 }
+header{
+    display: flex;
+    text-align: right;
+}
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Nunito', sans-serif;
@@ -10,9 +14,16 @@ body {
     margin: 10px;
     height: 700px;
 }
+header{
+    display: flex;
+    text-align: right;
+}
 .inline-block {
     display: inline-block;
     vertical-align: top;
+}
+.text {
+    margin: 50px;
 }
 nav {
     height: 50px;
@@ -27,7 +38,6 @@ ul {
 }
   
   li {
-    float: right;
     font-size: 26px;
     display: inline-block;
   }
@@ -44,8 +54,6 @@ ul {
     vertical-align: top;
 }
 img {
-    width: 532px;
-    height: 550px;
     background-image: url(/images/Caroline\ Pham\ Logos-02\ 1.png);
     background-repeat: no-repeat;
     float: left;
@@ -67,6 +75,7 @@ footer div {
     display: inline-block;
 }
 footer .copyright {
+    display: inline-block;
     width: 49%;
     height: 30px;
 }
@@ -83,14 +92,30 @@ footer ul li a{
     width: 73%;
     padding: 1%;
 }
-p {
+.paragraph {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    text-align: center;
     width: 500px;
+}
+.knowme {
+    text-align: left;
+}
+.homeBio {
+    text-align: left;
+}
+.description {
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: left;
+    font-size: 17pt;
+}
+p {
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: left;
 }
 button {
     display: block;
@@ -109,9 +134,51 @@ h1 {
     font-weight: bold;
     text-align: center;
 }
+h2 {
+    font-size: 56pt;
+    font-weight: bold;
+    text-align: center;
+}
+h3 {
+    font-size: 28pt;
+    font-weight: bold;
+    text-align: center;
+}
+h4 {
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: left;
+}
 html {
     line-height: 1.7;
 }
 span {
     color: #1D1F1E;
+}
+.workGrid {
+    display: grid;
+}
+.image {
+    grid-area: image;
+}
+.info {
+    grid-area: info;
+    text-align: center;
+}
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: 'info image';
+}
+.workcard2 {
+    grid-template-areas: 'image info';
+}
+.flexContainer {
+    display: flex;
+}
+.iconify {
+    height: auto;
+}
+.email {
+    display: flex;
 }
